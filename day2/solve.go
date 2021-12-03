@@ -2,7 +2,6 @@ package day2
 
 import (
 	"advent/utils"
-	"strconv"
 	"strings"
 )
 
@@ -15,13 +14,11 @@ func Solve() int {
 		split := strings.Split(v, " ")
 		switch split[0] {
 		case "down":
-			num, _ := strconv.Atoi((split[1]))
-			aim += num
+			aim += utils.Atoi((split[1]))
 		case "up":
-			num, _ := strconv.Atoi((split[1]))
-			aim -= num
+			aim -= utils.Atoi((split[1]))
 		case "forward":
-			num, _ := strconv.Atoi((split[1]))
+			num := utils.Atoi((split[1]))
 			x += num
 			y += (aim * num)
 		}

@@ -37,3 +37,8 @@ func SumInts(ints ...int) (sum int) {
 	}
 	return
 }
+
+func Atoi(number string) int {
+	n, _ := strconv.Atoi(number)
+	return n
+}
