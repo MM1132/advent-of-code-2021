@@ -1,6 +1,6 @@
 package day1
 
-import "advent/utils"
+import "github.com/MM1132/advent-of-code-2021/utils"
 
 // Return the count of times the value increases
 func Solve() (counter int, err error) {

@@ -1,8 +1,9 @@
 package day2
 
 import (
-	"advent/utils"
 	"strings"
+
+	"github.com/MM1132/advent-of-code-2021/utils"
 )
 
 func Solve() int {

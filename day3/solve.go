@@ -1,9 +1,10 @@
 package day3
 
 import (
-	"advent/utils"
 	"fmt"
 	"strconv"
+
+	"github.com/MM1132/advent-of-code-2021/utils"
 )
 
 func Solve() int64 {
