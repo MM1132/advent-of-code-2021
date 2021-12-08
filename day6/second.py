@@ -1,4 +1,4 @@
-with open("input.txt")as nums:input = [int(i) for i in nums.read().split(",")]
+with open("input.txt") as nums: input = [int(i) for i in nums.read().split(",")]
 f = [0 for _ in range(9)]
 for i in range(1, max(input)+1):
     f[i] = input.count(i)
